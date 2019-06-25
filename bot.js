@@ -72,8 +72,8 @@ ${prefix}cal = اله حاسبة
 ${prefix}tag = يكتب لك الكلمة بشكل جميل وكبير
 ${prefix}perms = يعرض لك برمشناتك بالسيرفر
 ${prefix}z5rf = يزخرف لك كلمة او جملة
-${prefix}emojilist = يعرض لك كل الايموجيات الي بالسيرفر
 ${prefix}say = يكرر الكلام اللي تكتبه
+${prefix}emojilist = يعرض لك كل الايموجيات الي بالسيرفر
 ${prefix}image = صورة السيرفر
 ${prefix}members = عرض لك عدد كل حالات الاشخاص وعدد البوتات وعدد الاشخاص
 ${prefix}id = معلومات عنك
@@ -88,6 +88,7 @@ ${prefix}move @user = لسحب الشخص الى رومك
 ${prefix}rolebc @role = راسال رساله جماعيه لرتبه محدده
 ${prefix}hchannel = اخفاء الشات
 ${prefix}schannel = اظهار الشات المخفية
+${prefix}alljoin = لسحب جميع الاعضاء لرومك
 ${prefix}clr <numbr> = مسح الشات بعدد
 ${prefix}clear = مسح الشات
 ${prefix}mute @user <time> = اعطاء العضو ميوت 
@@ -3348,7 +3349,7 @@ possibleInvites.push([inviteCount, exec]);
     const embed500 = new Discord.RichEmbed()
       .setTitle("Muted Ads")
             .addField(`**  You Have Been Muted **` , `**Reason : Sharing Another Discord Link**`)
-            .setColor("c91616")
+            .setColor("RANDOM")
             .setThumbnail(`${message.author.avatarURL}`)
             .setAuthor(message.author.username, message.author.avatarURL)
         .setFooter(`${message.guild.name} `)
